@@ -1,5 +1,2 @@
-完成进度:  
-0.1%  
-合作伙伴:  
-chatgpt.com  
-gemini.google.com  
+合作伙伴:chatgpt.com claude.ai gemini.google.com  
+完成进度:0.1%  
