@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EngageKiss</title>
+        <link rel="stylesheet" href="HomePage.css">
+        <script src="HomePage.js" defer></script>
+    </head>
 
+    <body>
+        <div class="HomePageUp">
+            <a href="https://github.com/Engage-Kiss/Monitor" target="_blank">EngageKiss Monitor</a>
+            <a>Home</a>
+            <a>Status</a>
+            <a>Login</a>
+        </div>
+
+        <div class="HomePageDown">
+            <div class="HomePageDown-AllStatus">
+                <span class="HomePageDown-AllStatus-Span">Online: <strong class="HomePageDown-AllStatus-Strong" id="HomePageDown-AllStatus-Online"></strong></span>
+                <span class="HomePageDown-AllStatus-Span">Network: <strong class="HomePageDown-AllStatus-Strong" id="HomePageDown-AllStatus-Network"></strong></span>
+                <span class="HomePageDown-AllStatus-Span">Bandwidth: <strong class="HomePageDown-AllStatus-Strong" id="HomePageDown-AllStatus-Bandwidth"></strong></span>
+            </div>
+            
+            <table class="HomePageDown-ServerTable">
+                <thead>
+                    <tr>
+                        <th>Status</th>
+                        <th>Name</th>
+                        <th>Region</th>
+                        <th>System</th>
+                        <th>Online</th>
+                        <th>Expire</th>
+                        <th>Network</th>
+                        <th>Cpu</th>
+                        <th>Ram</th>
+                        <th>Disk</th>
+                        <th>Bandwidth</th>
+                    </tr>
+                </thead>
+                <tbody id="Tbody-HomePageDown-ServerTable">
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
